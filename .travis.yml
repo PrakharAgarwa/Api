@@ -1,11 +1,8 @@
 language: python
 python:
- - "3.5"
- before_install:
- 
-  - pip install --update pip
+  - "3.8"
 install:
-  - pip install -r requirements.txt
+  - pip install requests
 # command to run tests
 script:
- - python -m unittest TestGit
+  - python -m unittest TestGit
