@@ -2,10 +2,10 @@ language: python
 python:
  - "3.5"
  before_install:
-  - python -m pip install --upgrade pip
+ 
+  - pip install -r requirements.txt
 install:
-  - pip install --user -r requirements.txt --use-feature=2020-resolver
-
+  - pip instal --upgrade pip
 # command to run tests
 script:
  - python -m unittest TestGit
