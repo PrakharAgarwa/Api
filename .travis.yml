@@ -3,9 +3,9 @@ python:
  - "3.5"
  before_install:
  
-  - pip install -r requirements.txt
+  - pip install --update pip
 install:
-  - pip instal --upgrade pip
+  - pip install -r requirements.txt
 # command to run tests
 script:
  - python -m unittest TestGit
